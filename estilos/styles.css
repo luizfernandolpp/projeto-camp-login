@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+  }
+
+  
