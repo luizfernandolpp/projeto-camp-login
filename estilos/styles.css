@@ -93,7 +93,7 @@ form > div.campos > input{
  border: 2px solid var(--text-base);
  border-radius: 5px;
  background-color:var(--background);
- cursor: pointer;
+ 
 
 font-family: var(--roboto);
 color: var(--text-base);
@@ -113,6 +113,13 @@ form > div.campos > span{
   color: var(--text-base);
 
   transform: translate(10px, 10px);
+}
+
+span#vis{
+  display: inline-block;
+  top: -150%;
+  left: 90%;
+  cursor: pointer;
 }
 
 
