@@ -17,45 +17,44 @@
     --roboto: 'Roboto', sans-serif;
   }
 
-  *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: none;
     color: white
   }
 
-  body, html{
+body, html{
     width: 100vw;
     height: 100vh;
     background-color: var(--background)
   }
 
-  header{
+header{
     width: 100%;
-    height: 20%;
+    height:25%;
   }
-  header > div#logo{
+header > div#logo{
     padding: 0px 30px;
     padding-top: 50px;
     padding-bottom: 30px;
-    height: 50%;
  }
 
- header > div#logo > #logoimg{
+header > div#logo > #logoimg{
     width: 200px;
  }
 
- header > div#title{
+header > div#title{
     padding: 0px 30px;
  }
 
- header > div#title > h1 > span{
+header > div#title > h1 > span{
     font-size: 1em;
     color: var(--primary-color);
     transform: translate(-5px, 4px);
  }
 
- header > div#title > h1{
+header > div#title > h1{
     font-family: var(--poppins);
     color: var(--text-title);
     font-size: 1.5em;
@@ -69,18 +68,23 @@ header > div#title > p{
 
   main{
     width: 100%;
-    height: 80%;
+    height: 75%;
+}
+
+section{
+    height: 100%;
+}
+
+section > div#formulario{
+    padding: 0px 30px;
+}
+
+form > div.campo > label{
     
-  }
+}
 
-  main > section{
-    height: 100%;
-  }
 
-  main > section > div#formulario{
-    height: 100%;
-    padding: 0px 15px;
-  }
+ 
 
 
 
