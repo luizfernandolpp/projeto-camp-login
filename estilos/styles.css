@@ -40,24 +40,24 @@ header > div#logo > #logoimg{
     width: 120px;
  }
 
-header > div#title{
-    padding: 0px 10px;
+main > section > div#form > div#title{
+    margin-bottom: 40px;
  }
 
-header > div#title > h1 > span{
+main > section > div#form > div#title > h1 > span{
     font-size: 1em;
     color: var(--primary-color);
     transform: translate(-5px, 4px);
  }
 
-header > div#title > h1{
+main > section > div#form > div#title > h1{
     font-family: var(--poppins);
     color: var(--text-title);
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-header > div#title > p{
+main > section > div#form > div#title > p{
     font-family: var(--roboto);
     color: var(--text-base);
 }
