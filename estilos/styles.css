@@ -30,13 +30,8 @@ body, html{
     background-color: var(--background)
   }
 
-header{
-    width: 100%;
-    height:20%;
-    
-  }
-header > div#logo{
-    padding: 0px 20px;
+  header > div#logo{
+    padding: 0px 10px;
     padding-top: 50px;
     padding-bottom: 30px;
  }
@@ -46,7 +41,7 @@ header > div#logo > #logoimg{
  }
 
 header > div#title{
-    padding: 0px 20px;
+    padding: 0px 10px;
  }
 
 header > div#title > h1 > span{
@@ -67,89 +62,62 @@ header > div#title > p{
     color: var(--text-base);
 }
 
-  main{
-    width: 100%;
-    height: 80%;
-}
 
 section{
     height: 100%;
     padding-top: 10px;
 }
 
-section > div#formulario{
-    padding: 0px 20px;
+main > section > div#form{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 
-label{
- 
+form > label{
   font-family: var(--poppins);
   color: var(--text-base);
-
-}
-
-div.campo > #mailLogo{
-  color: var(--text-base);
-
-  transform: translate(-48px, 38px);
-}
-
-div.campo > #lock{
-  color: var(--text-base);
-  
-  transform: translate(-46px, 39px);
-}
-
-div.campo{
-  margin-bottom: 12px;
-}
-
-div.campo > input{
-  width: 100%;
-  height: 40px;
-
-  background-color: var(--background);
-  border: 1px solid var(--text-base);
-
-  font-family: var(--roboto);
   font-size: 1em;
-  text-indent: 40px;
+}
 
+section > div#form > form > div.campos{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  
   border-radius: 5px;
 }
 
-div#password{
-  margin-bottom: 20px;
+form > div.campos > input{
+ width: 100%; 
+ height: 50px;
+ border: 2px solid var(--text-base);
+ border-radius: 5px;
+ background-color:var(--background);
+ cursor: pointer;
+
+font-family: var(--roboto);
+color: var(--text-base);
+font-size: 1em;
+text-indent: 50px;
+
+ transform: translate(0px, -29px);
 }
 
-div#icheckbox{
-  display:inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid var(--text-base);
-  border-radius: 4px;
-
-  color:var(--background);
-
+form > div.campos > input:hover{
+  border: 2px solid var(--primary-color);
 }
 
-div#checkbox > p{
-  display:inline-block;
-  font-family: var(--poppins);
-  font-size: 1em;
-  color: var(--text-base);
-  margin-right: 5%;
-
-  transform:translate(5px, -3px);
-}
-
-div#checkbox > a{
-  text-decoration: none;
-  font-size:1em;
+form > div.campos > span{
   position: relative;
-  font-family: var(--poppins);
-  color:var(--primary-color);
+  z-index: 1;
+  color: var(--text-base);
+
+  transform: translate(10px, 10px);
 }
+
+
+
 
 
 
