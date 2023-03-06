@@ -146,6 +146,7 @@ form > div.campos > p{
   font-family: var(--poppins);
   font-size: 1em;
   color: var(--text-base);
+  text-align: center;
   
   margin-left: 5px;
   position: relative;
@@ -159,10 +160,12 @@ form > div.campos > a{
   color: var(--primary-color);
   font-weight: bold;
   text-decoration: none;
+  
+  
 
   position: relative;
   top: -4px;
-  left: calc(40% - 15px);
+  left: 36%;
 
 }
 
