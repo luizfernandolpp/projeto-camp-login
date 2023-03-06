@@ -12,7 +12,7 @@
 <body>
     <header>
         <div id="logo">
-            <img src="images/logo.svg" alt="Logo camp.in">
+            <img id="logoimg" src="images/logo.svg" alt="Logo camp.in">
         </div>
         <div id="title">
             <h1><span class="material-symbols-outlined">
@@ -22,29 +22,28 @@
         </div>
     </header>
     <main>
-        <section id="login">
+        <section>
+            <!--
             <div id="formulario">
-            <form action="" method="post">
-                <div class="campo">
+                <form action="" method="post" autocomplete="on">
                     <label for="iemail">E-mail</label>
                     <span class="material-symbols-outlined">mail</span>
-                    <input type="email" name="iemail" id="iemail" placeholder="Digite seu e-mail" required>
-                </div>
-                <div class="campo">
+                    <input type="email" name="iemail" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email">
+                
                     <label for="ipass">Senha</label>
                     <span class="material-symbols-outlined">lock</span>
-                    <input type="password" name="" id="" placeholder="Digite sua senha" required minlength="8" maxlength="16">
-                    <span class="material-symbols-outlined">visibility</span>
-                </div>
-                <div id="checkbox">
-                    <input type="checkbox" name="checkbox" id="icheck">
-                    <label for="icheck">Lembre-me</label>
-                </div>
-                <a href="#">Esqueci minha senha</a>
-                <input type="submit" value="ENTRAR">
-                <a href="#">Não tem uma conta? <strong>Registre-se</strong></a>
-            </form>
-        </div>
+                    <input type="password" name="" id="" placeholder="Digite sua senha" required minlength="8" maxlength="16" autocomplete="current-password">
+                    <span class="material-symbols-outlined" id="vis">visibility</span>
+                
+                    <div id="checkbox">
+                        <input type="checkbox" name="checkbox" id="icheck">
+                        <label for="icheck">Lembre-me</label>
+                    </div>
+                        <a href="#">Esqueci minha senha</a>
+                        <input type="submit" value="ENTRAR">
+                        <a href="#">Não tem uma conta? <strong>Registre-se</strong></a>
+                </form>
+            </div> -->
         
         </section>
     </main>
