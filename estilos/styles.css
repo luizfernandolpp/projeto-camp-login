@@ -21,6 +21,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: none;
+    color: white
   }
 
   body, html{
@@ -34,7 +35,18 @@
     height: 20%;
   }
   header > div#logo{
-    padding: 30px 20px;
+    padding: 0px 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 50%;
+ }
+
+ header > div#logo > #logoimg{
+    width: 200px;
+ }
+
+ header > div#title{
+    padding: 0px 30px;
  }
 
  header > div#title > h1 > span{
@@ -46,14 +58,13 @@
  header > div#title > h1{
     font-family: var(--poppins);
     color: var(--text-title);
-    margin: 10px 15px;
     font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 header > div#title > p{
     font-family: var(--roboto);
     color: var(--text-base);
-    margin: 0px 15px;
 }
 
   main{
@@ -61,6 +72,24 @@ header > div#title > p{
     height: 80%;
     
   }
+
+  main > section{
+    height: 100%;
+  }
+
+  main > section > div#formulario{
+    height: 100%;
+    padding: 0px 15px;
+  }
+
+
+
+
+
+
+
+
+  
 
 
  
