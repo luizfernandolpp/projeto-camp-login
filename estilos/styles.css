@@ -35,17 +35,17 @@ header{
     height:25%;
   }
 header > div#logo{
-    padding: 0px 30px;
+    padding: 0px 20px;
     padding-top: 50px;
     padding-bottom: 30px;
  }
 
 header > div#logo > #logoimg{
-    width: 200px;
+    width: 150px;
  }
 
 header > div#title{
-    padding: 0px 30px;
+    padding: 0px 20px;
  }
 
 header > div#title > h1 > span{
@@ -76,7 +76,7 @@ section{
 }
 
 section > div#formulario{
-    padding: 0px 30px;
+    padding: 0px 20px;
 }
 
 form > div.campo > label{
