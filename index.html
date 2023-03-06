@@ -23,23 +23,21 @@
     </header>
     <main>
         <section>
-            <div id="formulario">
-                <form action="" method="post" autocomplete="on">
-                    <div class="campo">
-                        <label for="iemail">E-mail</label>
-                        <span class="material-symbols-outlined" id="mailLogo">mail</span>
-                        <input type="email" name="iemail" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email">
+            <div id="form">
+                <form action="index.php" method="post" autocomplete="on">
+                    <label for="iemail">E-mail</label>
+                    <div class="campos">
+                        <span class="material-symbols-outlined">mail</span>
+                        <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail" autocomplete="email" onmouseover="mouseOver()" onmouseout="mouseOut()">
                     </div>
-                    <div class="campo" id="password">
-                        <label for="ipass">Senha</label>
-                        <span class="material-symbols-outlined" id="lock">lock</span>
-                        <input type="password" name="pass" id="ipass" placeholder="Digite sua senha" required minlength="8" maxlength="16" autocomplete="current-password">
-                        <!--<span class="material-symbols-outlined" id="vis">visibility</span>-->
+                    <label for="ipass">Senha</label>
+                    <div class="campos">
+                        <span class="material-symbols-outlined">lock</span>
+                        <input type="password" name="pass" id="ipass" required placeholder="Digite sua senha" autocomplete="current-password" minlength="8" maxlength="16" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                        <!-- <span class="material-symbols-outlined">visibility</span> -->
                     </div>
                     <div id="checkbox">
-                        <div id="icheckbox"></div>
-                        <p>Lembre-me</p>
-                        <a href="#">Esqueci minha senha</a>
+
                     </div>
                 </form>
             </div>
