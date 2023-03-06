@@ -30,13 +30,7 @@ body, html{
     background-color: var(--background)
   }
 
-  header{
-    height: 10vh;
-  }
 
-  main{
-    height: 60vh;
-  }
 
   header > div#logo{
     padding: 0px 10px;
