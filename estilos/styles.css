@@ -30,6 +30,14 @@ body, html{
     background-color: var(--background)
   }
 
+  header{
+    height: 10vh;
+  }
+
+  main{
+    height: 60vh;
+  }
+
   header > div#logo{
     padding: 0px 10px;
     padding-top: 50px;
@@ -40,6 +48,9 @@ header > div#logo > #logoimg{
     width: 120px;
  }
 
+ main > section > div#form{
+  height: 50px;
+}
 
 main > section > div#form > div#title{
     margin-bottom: 40px;
