@@ -27,21 +27,20 @@
                 <form action="" method="post" autocomplete="on">
                     <div class="campo">
                         <label for="iemail">E-mail</label>
-                        <span class="material-symbols-outlined">mail</span>
+                        <span class="material-symbols-outlined" id="mailLogo">mail</span>
                         <input type="email" name="iemail" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email">
                     </div>
-                    <div class="campo">
+                    <div class="campo" id="password">
                         <label for="ipass">Senha</label>
-                        <span class="material-symbols-outlined">lock</span>
-                        <input type="password" name="" id="" placeholder="Digite sua senha" required minlength="8" maxlength="16" autocomplete="current-password">
-                        <span class="material-symbols-outlined" id="vis">visibility</span>
+                        <span class="material-symbols-outlined" id="lock">lock</span>
+                        <input type="password" name="pass" id="ipass" placeholder="Digite sua senha" required minlength="8" maxlength="16" autocomplete="current-password">
+                        <!--<span class="material-symbols-outlined" id="vis">visibility</span>-->
                     </div>
-                
                     <div id="checkbox">
-                        <input type="checkbox" name="checkbox" id="icheck">
-                        <label for="icheck">Lembre-me</label>
-                    </div>
+                        <div id="icheckbox"></div>
+                        <p>Lembre-me</p>
                         <a href="#">Esqueci minha senha</a>
+                    </div>
                         <input type="submit" value="ENTRAR">
                         <a href="#">Não tem uma conta? <strong>Registre-se</strong></a>
                 </form>
