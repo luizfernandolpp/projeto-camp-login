@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px){
-    
+    body{
+        background-image: url(../images/side-image.jpg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: contain;
+        background-attachment: fixed;
+
+    }
+
+    header, main{
+        width: 40%; 
+        position: relative;
+        transform: translate(10px, 10px);
+    }
+
 }
