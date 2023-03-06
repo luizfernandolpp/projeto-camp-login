@@ -122,7 +122,13 @@ span#vis{
   cursor: pointer;
 }
 
-form > div.campos > div#checkbox{
+form > div#campoCheck{
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+}
+
+form > div#campoCheck > div#checkbox{
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -137,11 +143,11 @@ form > div.campos > div#checkbox{
 
 }
 
-form > div.campos > div#checkbox:hover{
+form > div#campoCheck > div#checkbox:hover{
   border-color: var(--primary-color);
 }
 
-form > div.campos > p{
+form > div#campoCheck > p{
   display: inline;
   font-family: var(--poppins);
   font-size: 1em;
@@ -154,16 +160,28 @@ form > div.campos > p{
 
 }
 
-form > div.campos > a{
+form > div#forgetPass{
+  width: 50%;
+  height: 50px;
+  margin-left: 50%;
+
+  transform: translateY(-50px);
+}
+
+
+form > div#forgetPass > a{
   font-family: var(--poppins);
   font-size: 1em;
   color: var(--primary-color);
   font-weight: bold;
   text-decoration: none;
-  
-}
+  float: right;
 
-form > div.campos > a:hover{
+  
+  
+} 
+
+form > div#forgetPass > a:hover{
   text-decoration: underline;
 }
 
