@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 1200px){
 
     header > div#logo{
         width: 60%;
@@ -18,7 +18,7 @@
 }
 
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1200px){
     
     body{
         background-image: url(../images/side-image-2x.jpg);
@@ -29,10 +29,21 @@
     } 
 
 
-        header, main{
+    header, main{
         width: 50%;
-        
     }
+
+    
+
+    main > section > div#form{
+        position: static;
+        width: 63%;
+        background-color: var(--form-background);
+        padding: 20px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
 
 
 
