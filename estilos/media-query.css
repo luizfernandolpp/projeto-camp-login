@@ -1,19 +1,39 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
-    body{
-        background-image: url(../images/side-image.jpg);
-        background-repeat: no-repeat;
-        background-position: center right;
-        background-size: contain;
-        background-attachment: fixed;
+@media screen and (min-width: 768px) and (max-width: 992px){
 
-    }
-
-    header, main{
-        width: 40%; 
+    header > div#logo{
+        width: 60%;
         position: relative;
-        transform: translate(10px, 10px);
+        left: 40%;
     }
+    
+    main > section > div#form{
+        width: 70%;
+        background-color: var(--form-background);
+        padding: 50px;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 992px){
+    
+    body{
+        background-image: url(../images/side-image-2x.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center right;
+        background-attachment: scroll;
+    } 
+
+
+        header, main{
+        width: 50%;
+        
+    }
+
+
 
 }
