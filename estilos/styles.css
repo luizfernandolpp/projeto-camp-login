@@ -20,7 +20,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: none;
+    box-sizing: border-box;
     color: white
   }
 
@@ -41,7 +41,7 @@ header > div#logo{
  }
 
 header > div#logo > #logoimg{
-    width: 150px;
+    width: 120px;
  }
 
 header > div#title{
@@ -79,8 +79,11 @@ section > div#formulario{
     padding: 0px 20px;
 }
 
-form > div.campo > label{
-    
+label{
+  display: block;
+  font-family: var(--poppins);
+  color: var(--text-base);
+
 }
 
 
