@@ -26,7 +26,7 @@
 
 body, html{
     width: 100vw;
-    height: 100vh;
+    height: 1200px;
     background-color: var(--background)
   }
 
@@ -86,7 +86,7 @@ form > label{
 }
 
 section > div#form > form > div.campos{
-  width: 100%;
+  width: 91%;
   height: 50px;
   margin-bottom: 10px;
   
@@ -169,7 +169,7 @@ form > div#campoCheck > p{
 form > div#forgetPass{
   width: 50%;
   height: 50px;
-  margin-left: 50%;
+  margin-left: 40%;
 
   transform: translateY(-50px);
 }
