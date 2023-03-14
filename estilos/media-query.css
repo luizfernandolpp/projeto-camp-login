@@ -2,16 +2,15 @@
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1200px){
+@media screen and (min-width: 768px) and (max-width: 1700px){
 
     header > div#logo{
-        width: 60%;
-        position: relative;
-        left: 40%;
+        width: 200px;
+        margin: auto;
     }
     
     main > section > div#form{
-        width: 70%;
+        width: 600px;
         background-color: var(--form-background);
         padding: 50px;
         margin: auto;
@@ -20,7 +19,7 @@
 }
 
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1700px){
     
     body{
         background-image: url(../images/side-image-2x.jpg);
