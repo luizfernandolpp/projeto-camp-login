@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
 
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+  }
 
-@media screen and (min-width: 768px) and (max-width: 1700px){
+@media screen and (min-width: 768px) and (max-width: 1200px){
 
     header > div#logo{
         width: 200px;
@@ -19,9 +28,11 @@
 }
 
 
-@media screen and (min-width: 1700px){
+@media screen and (min-width: 1200px){
     
-    body{
+    body,html{
+        padding: 0px;
+
         background-image: url(../images/side-image-2x.jpg);
         background-repeat: no-repeat;
         background-size:contain;
@@ -32,17 +43,17 @@
 
     header, main{
         width: 50%;
+        
+    
     }
 
     
 
     main > section > div#form{
-        position: static;
-        width: 63%;
+        width: 50%;
         background-color: var(--form-background);
         padding: 20px;
-        margin: auto;
-        margin-top: 100px;
+        margin: 100px auto;
     }
 
 
