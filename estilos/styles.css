@@ -94,7 +94,7 @@ section > div#form > form > div.campos{
 }
 
 form > div.campos > input{
- width: 100%; 
+ width: 98%; 
  height: 50px;
  border: 2px solid var(--text-base);
  border-radius: 5px;
@@ -124,7 +124,7 @@ form > div.campos > span{
 span#vis{
   display: inline-block;
   top: -150%;
-  left: 90%;
+  left: 85%;
   cursor: pointer;
 }
 
